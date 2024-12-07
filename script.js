@@ -7,20 +7,20 @@ const filterObjects = [
 ];
 
 const song = [
-    {id:1,songName:'Millionaire',artist:'Yo Yo Honey Singh',genre:'Bollywood',image:'mediaFile/millionaire.jpg',audio:'/mediaFile/millionaire.mp3'},    
-    {id:2,songName:'Perfect',artist:'Ed Sheeran',genre:'Hiphop',image:'/mediaFile/Perfect.jpg',audio:'/mediaFile/Perfect.mp3'},
-    {id:3,songName:'Closer',artist:'Ed Sheeran',genre:'Hiphop',image:'/mediaFile/Closer.png',audio:'/mediaFile/closer.mp3'},
-    {id:4,songName:'Mood',artist:'24KGoldn',genre:'Hiphop',image:'/mediaFile/Mood.jpeg',audio:'/mediaFile/mood.mp3'},
-    {id:5,songName:'Stay',artist:'Kid Laroi',genre:'Pop',image:'/mediaFile/Stay.jpeg',audio:'/mediaFile/stay.mp3'},    
-    {id:6,songName:'Sorry',artist:'Justin Bieber',genre:'Pop',image:'/mediaFile/Sorry.jpg',audio:'/mediaFile/sorry.mp3'},    
-    {id:7,songName:'Shape Of You',artist:'Ed Sheeran',genre:'Hiphop',image:'/mediaFile/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png',audio:'/mediaFile/shape_of_you.mp3'},
-    {id:8,songName:'Thats What I Want',artist:'Lil Nas X',genre:'Rock',image:'/mediaFile/I Want.jpg',audio:'/mediaFile//I want.mp3'},    
-    {id:9,songName:'Old Town',artist:'Lil Nas X',genre:'Rock',image:'/mediaFile/old town.jpeg',audio:'/mediaFile/old town.mp3'},    
-    {id:10,songName:'The Box',artist:'James Hype',genre:'Pop',image:'/mediaFile/box.jpg',audio:'/mediaFile/Box.mp3'},    
-    {id:11,songName:'Tauba Tauba',artist:'Kunal Aujla',genre:'Bollywood',image:'/mediaFile/Tauba tauba.jpg',audio:'/mediaFile/tauba tauba.mp3'},    
-    {id:12,songName:'Heat Waves',artist:'Glass Animal',genre:'Rock',image:'/mediaFile/heat waves.jpg',audio:'/mediaFile/heat waves.mp3'},    
-    {id:13,songName:'Yaad aa Raha Hai',artist:'Bhapi Laheri',genre:'Bollywood',image:'/mediaFile/yaad.jpg',audio:'/mediaFile/yaad.mp3'},    
-    {id:14,songName:'Dil ke chain',artist:'Sanam Puri',genre:'Bollywood',image:'/mediaFile/dil ke chain.jpg',audio:'/mediaFile/dil ke chain.mp3'},    
+    {id:1,songName:'Millionaire',artist:'Yo Yo Honey Singh',genre:'Bollywood',image:'/Music_Application/mediaFile/millionaire.jpg',audio:'/mediaFile/millionaire.mp3'},    
+    {id:2,songName:'Perfect',artist:'Ed Sheeran',genre:'Hiphop',image:'/Music_Application/mediaFile/Perfect.jpg',audio:'/mediaFile/Perfect.mp3'},
+    {id:3,songName:'Closer',artist:'Ed Sheeran',genre:'Hiphop',image:'/Music_Application/mediaFile/Closer.png',audio:'/mediaFile/closer.mp3'},
+    {id:4,songName:'Mood',artist:'24KGoldn',genre:'Hiphop',image:'/Music_Application/mediaFile/Mood.jpeg',audio:'/mediaFile/mood.mp3'},
+    {id:5,songName:'Stay',artist:'Kid Laroi',genre:'Pop',image:'/Music_Application/mediaFile/Stay.jpeg',audio:'/mediaFile/stay.mp3'},    
+    {id:6,songName:'Sorry',artist:'Justin Bieber',genre:'Pop',image:'/Music_Application/mediaFile/Sorry.jpg',audio:'/mediaFile/sorry.mp3'},    
+    {id:7,songName:'Shape Of You',artist:'Ed Sheeran',genre:'Hiphop',image:'/Music_Application/mediaFile/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png',audio:'/mediaFile/shape_of_you.mp3'},
+    {id:8,songName:'Thats What I Want',artist:'Lil Nas X',genre:'Rock',image:'/Music_Application/mediaFile/I Want.jpg',audio:'/mediaFile//I want.mp3'},    
+    {id:9,songName:'Old Town',artist:'Lil Nas X',genre:'Rock',image:'/Music_Application/mediaFile/old town.jpeg',audio:'/mediaFile/old town.mp3'},    
+    {id:10,songName:'The Box',artist:'James Hype',genre:'Pop',image:'/Music_Application/mediaFile/box.jpg',audio:'/mediaFile/Box.mp3'},    
+    {id:11,songName:'Tauba Tauba',artist:'Kunal Aujla',genre:'Bollywood',image:'/Music_Application/mediaFile/Tauba tauba.jpg',audio:'/mediaFile/tauba tauba.mp3'},    
+    {id:12,songName:'Heat Waves',artist:'Glass Animal',genre:'Rock',image:'/Music_Application/mediaFile/heat waves.jpg',audio:'/mediaFile/heat waves.mp3'},    
+    {id:13,songName:'Yaad aa Raha Hai',artist:'Bhapi Laheri',genre:'Bollywood',image:'/Music_Application/mediaFile/yaad.jpg',audio:'/mediaFile/yaad.mp3'},    
+    {id:14,songName:'Dil ke chain',artist:'Sanam Puri',genre:'Bollywood',image:'/Music_Application/mediaFile/dil ke chain.jpg',audio:'/mediaFile/dil ke chain.mp3'},    
 ];
 
 const createOption = document.getElementById('options');
