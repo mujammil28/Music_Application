@@ -15,7 +15,7 @@ const song = [
     {id:6,songName:'Sorry',artist:'Justin Bieber',genre:'Pop',image:'/mediaFile/Sorry.jpg',audio:'/mediaFile/sorry.mp3'},    
     {id:7,songName:'Shape Of You',artist:'Ed Sheeran',genre:'Hiphop',image:'/mediaFile/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png',audio:'/mediaFile/shape_of_you.mp3'},
     {id:8,songName:'Thats What I Want',artist:'Lil Nas X',genre:'Rock',image:'/mediaFile/I Want.jpg',audio:'/mediaFile//I want.mp3'},    
-    {id:9,songName:'Old Town',artist:'Lil Nas X',genre:'Rock',image:'/mediaFile/old town.jpeg',audio:'/mediaFile/old town.mp3'},    
+    {id:9,songName:'Old Town',artist:'Lil Nas X',genre:'Rock',image:'../mediaFile/old town.jpeg',audio:'/mediaFile/old town.mp3'},    
     {id:10,songName:'The Box',artist:'James Hype',genre:'Pop',image:'/mediaFile/box.jpg',audio:'/mediaFile/Box.mp3'},    
     {id:11,songName:'Tauba Tauba',artist:'Kunal Aujla',genre:'Bollywood',image:'/mediaFile/Tauba tauba.jpg',audio:'/mediaFile/tauba tauba.mp3'},    
     {id:12,songName:'Heat Waves',artist:'Glass Animal',genre:'Rock',image:'/mediaFile/heat waves.jpg',audio:'/mediaFile/heat waves.mp3'},    
