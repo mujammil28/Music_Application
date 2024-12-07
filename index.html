@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER</title>
+    <link rel="styleSheet" href="style.css"/>
+    <link rel="icon" href="/mediaFile/music-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/273a7b08dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/273a7b08dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main>
+    <section>
+        <div id="header">
+            <div id="header-name"><h3>MUSIC PLAYER</h3></div>
+            <div id="dark-mode">
+                <span style="color: black;
+                display: flex;
+                align-items: center;margin-right: 10px;">Dark</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span style="color: white; display: flex;
+                align-items: center;margin-left: 10px;">Light</span>
+            </div>
+        </div>
+    </section>
+             
+    
+    <section>
+        <div id="main">
+
+            <div id="song-filter" class="song song-box">
+                <p>Filter By Genre:
+                    <select id="options">
+                        
+                    </select>
+                </p>
+                <p>All Songs</p>
+                <div id="filtered-song">
+                    
+                </div>
+            </div>
+            <div id="song-streaming" class="song">
+                <div id="song-view"  class="anime song-box">
+                    <img src="/mediaFile/millionaire.jpg"/>
+                    <p id="song-name-view" style="font-weight: bold;">Millionaire</p>    
+                    <p id="song-artist-view">Yo Yo Honey Singh</p>
+                  
+                </div>
+                <div id="song-player">
+                    <audio controls>
+                       
+                      <source src="" type="audio/mpeg"/>
+                       
+                      </audio>
+                </div>
+            <div id="song-control">
+                <div id="song-previous" class="song-action">
+
+                </div>
+                <div id="song-next" class="song-action">
+
+                </div>
+            </div>    
+                <div id="add-playlist">
+                  
+                </div>
+                </div>
+            
+                <div id="song-playList">
+                    <div id="create-playlist">
+                        <input type="text" placeholder="Name the playlist..." />
+                        <button>Create PlayList</button>
+                    </div>
+                    
+                    <div id="display-playlist" class="song song-box">
+                        <div id="current-playList" class="playList">
+                            <p style="margin-left: 12px;">Current playlist</p>
+                        </div>
+                        
+                        <div id="current-song"></div> <!-- Add this line -->
+                
+                        <div id="all-playlist" class="playList">
+                            
+                            <p>All playlists</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
