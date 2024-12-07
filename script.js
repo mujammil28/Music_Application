@@ -18,7 +18,7 @@ const song = [
     {id:9,songName:'Old Town',artist:'Lil Nas X',genre:'Rock',image:'/Music_Application/mediaFile/old town.jpeg',audio:'/Music_Application/mediaFile/old town.mp3'},    
     {id:10,songName:'The Box',artist:'James Hype',genre:'Pop',image:'/Music_Application/mediaFile/box.jpg',audio:'/Music_Application/mediaFile/Box.mp3'},    
     {id:11,songName:'Tauba Tauba',artist:'Kunal Aujla',genre:'Bollywood',image:'/Music_Application/mediaFile/Tauba tauba.jpg',audio:'/Music_Application/mediaFile/tauba tauba.mp3'},    
-    {id:12,songName:'Heat Waves',artist:'Glass Animal',genre:'Rock',image:'/Music_Application/mediaFile/heat waves.jpg',audio:'/Music_Application/mediaFile/heat waves.mp3'},    
+    {id:12,songName:'Heat Waves',artist:'Glass Animal',genre:'Rock',image:'/Music_Application/mediaFile/heat waves.jpg',audio:'/Music_Application/mediaFile/heat%20waves.mp3'},    
     {id:13,songName:'Yaad aa Raha Hai',artist:'Bhapi Laheri',genre:'Bollywood',image:'/Music_Application/mediaFile/yaad.jpg',audio:'/Music_Application/mediaFile/yaad.mp3'},    
     {id:14,songName:'Dil ke chain',artist:'Sanam Puri',genre:'Bollywood',image:'/Music_Application/mediaFile/dil ke chain.jpg',audio:'/Music_Application/mediaFile/dil ke chain.mp3'},    
 ];
